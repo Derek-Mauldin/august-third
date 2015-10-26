@@ -26,7 +26,7 @@
 			<h2>Goals For This Site</h2>
 			<ul>
 				<li>To acquire full time employment</li>
-				<li>To server as a portfolio to showcase my work</li>
+				<li>To serve as a portfolio to showcase my work</li>
 			</ul>
 
 		</main>
