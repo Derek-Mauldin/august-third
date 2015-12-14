@@ -33,21 +33,4 @@
 
 
 	</head>
-
 	<body>
-
-		<div class="page-header">
-			<h1>Derek Mauldin</h1>
-		</div>
-
-		<nav class="navmenu navmenu-default" role="navigation">
-
-			<ul class="nav navmenu-nav">
-				<li class=""><a href="about-me.php">About Me</a></li>
-				<li class=""><a href="contact.php">Contact</a></li>
-				<li class=""><a href="resume.php">Resume</a></li>
-				<li class =""><a href="portfolio.php">Portfolio</a></li>
-			</ul>
-
-		</nav>
-	</body>
