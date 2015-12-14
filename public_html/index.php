@@ -13,7 +13,6 @@ require_once("php/template/utilities.php");
 		</section>
 
 		<section class="main-content col-md-9">
-			<h1>Derek Mauldin</h1>
 			<p>This is the main page content here.</p>
 		</section>
 	</div>
