@@ -1,8 +1,25 @@
+<?php
+/**
+ * Get the relative path.
+ * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/_header.php FarmToYou Header
+ **/
+
+// include the appropriate number of dirname() functions
+// on line 9 to correctly resolve your directory's path
+require_once(dirname(dirname(__DIR__)) . "/root-path.php");
+$CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
+$ROOT_DEPTH = substr_count($ROOT_PATH, "/");
+$DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
+$PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
 		<meta charset="utf-8" />
-		<title>Derek Mauldin</title>
 
 		<!-- Bootstrap Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"/>
@@ -17,7 +34,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!-- Custom Style Sheet -->
-		<link rel="stylesheet" href="../../css/style.css"
+		<link  href="<?php echo $PREFIX;?>public_html/css/style.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,8 +49,8 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+		<title>Derek Mauldin</title>
 
-
+		<?php echo "head utils"?>
 
 	</head>
-	<body>
