@@ -3,7 +3,7 @@
 function HideAllShowOne(d) {
 	console.log(d);
 
-	var menuItem = ["home-page", "profile-page", "message-page", "feed-page", "logout-page"];
+	var menuItem = ["about-me", "contact", "portfolio", "resume"];
 
 	for(i = 0; i < menuItem.length; i++) {
 		document.getElementById(menuItem[i]).style.display = "none";

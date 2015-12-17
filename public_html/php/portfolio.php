@@ -2,5 +2,5 @@
 
 
 <div class="container" id="portfolio">
-	<h1>portfolio</h1>
+	<h1>Portfolio</h1>
 </div>

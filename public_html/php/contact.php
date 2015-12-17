@@ -1,2 +1,5 @@
-<?php
-echo "<h1>contact</h1>";
+
+
+<div class="container" id="contact">
+	<h1>Contact</h1>
+</div>

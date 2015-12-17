@@ -21,7 +21,6 @@ require_once("php/template/utilities.php");
 		</section>
 
 		<section class="main-content col-md-9">
-			<p>This is the main page content here.</p>
 			<?php require_once("php/portfolio.php")?>
 			<?php require_once("php/resume.php")?>
 		</section>

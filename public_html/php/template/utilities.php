@@ -34,7 +34,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!-- Custom Style Sheet -->
-		<link  href="<?php echo $PREFIX;?>public_html/css/style.css" rel="stylesheet">
+		<link  href="<?php echo $PREFIX; ?>css/style.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,6 +51,5 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
 		<title>Derek Mauldin</title>
 
-		<?php echo "head utils"?>
 
 	</head>
