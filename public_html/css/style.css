@@ -1,11 +1,19 @@
-
-
+#pheader {
+	padding: 1px;
+	margin: 1px;
+}
+#name-header {
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	border-bottom: 1px;
+}
 #portfolio {
 	display: none;
 }
 
 #resume {
 	display: none;
+	background-color: ghostwhite;
 }
 
 #contact {
@@ -17,10 +25,28 @@
 }
 
 body {
-	background-color: orange;
+	background-color: darkgrey;
 }
 
 div#portfolio.container {
 	margin: 1px;
 	padding: 1px;
+}
+
+header {
+	background-color: black;
+	color: lightgrey;
+}
+
+#side-panel {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.resume-heading {
+	color: dodgerblue;
+}
+
+.right-column {
+text-align: right;
 }
