@@ -1,6 +1,6 @@
 
 
 
-<div class="container" id="portfolio">
+<div id="portfolio">
 	<h1>Portfolio</h1>
 </div>

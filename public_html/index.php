@@ -23,6 +23,8 @@ require_once("php/template/utilities.php");
 		<section class="main-content col-md-9">
 			<?php require_once("php/portfolio.php")?>
 			<?php require_once("php/resume.php")?>
+			<?php require_once("php/about-me.php")?>
+			<?php require_once("php/contact.php")?>
 		</section>
 	</div>
 
