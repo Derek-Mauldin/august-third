@@ -28,6 +28,7 @@ require_once("php/template/utilities.php");
 		</section>
 	</div>
 
+
 	<footer class="footer">
 		<?php require_once("php/template/footer.php"); ?>
 	</footer>

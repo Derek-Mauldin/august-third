@@ -54,6 +54,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- site script js -->
 		<script src="<?php echo $PREFIX; ?>js/site-scripts.js" type="text/javascript"></script>
+		<script src="<?php echo $PREFIX; ?>php/forms/message-controller.js" type="text/javascript"></script>
 
 
 		<title>Derek Mauldin</title>

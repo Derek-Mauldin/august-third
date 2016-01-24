@@ -9,6 +9,7 @@
 }
 #portfolio {
 	display: none;
+	background-color: ghostwhite;
 }
 
 #resume {
@@ -18,10 +19,12 @@
 
 #contact {
 	display: none;
+	background-color: ghostwhite;
 }
 
 #about-me {
 	display: none;
+	background-color: ghostwhite;
 }
 
 body {
