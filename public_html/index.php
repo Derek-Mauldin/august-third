@@ -6,6 +6,7 @@ $CURRENT_DIR = __DIR__;
 /*$PAGE_TITLE = "MY PAGE TITLE";*/
 /*load head-utils.php*/
 require_once("php/template/utilities.php");
+
 ?>
 
 <body>
@@ -28,6 +29,7 @@ require_once("php/template/utilities.php");
 		</section>
 	</div>
 
+	<?php phpinfo() ?>
 
 	<footer class="footer">
 		<?php require_once("php/template/footer.php"); ?>
